@@ -8,7 +8,8 @@ class Bio extends React.Component {
     super(props);
     this.state = {
       value: props.user[props.className],
-      className: props.className
+      className: props.className,
+      editing: false
     };
   }
 

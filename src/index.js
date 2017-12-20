@@ -10,6 +10,8 @@ import './index.css';
 
 const target = document.querySelector('#root');
 
+window.stateCheck = {};
+
 render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
