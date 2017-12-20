@@ -31,6 +31,11 @@ class Input extends React.Component {
     }
   }
 
+  autoFocus(){
+    this.nameInput.selectionStart = this.nameInput.selectionEnd = this.nameInput.value.length;
+    this.nameInput.focus();
+  }
+
   render(){
     if (this.state.editing === true){
       return (
@@ -42,6 +47,7 @@ class Input extends React.Component {
             value={this.state.value}
             onChange={this.onChange()}
             onKeyPress={(e) => this.handleKeyPress(e)}
+            ref={(input) => { this.nameInput = input; }}
           />
           <button onClick={() => this.setState({editing: false}, this.update())}>
             save
@@ -57,7 +63,7 @@ class Input extends React.Component {
             type="text"
             value={this.state.value}
             onChange={this.onChange()}
-            onClick={() => this.setState({editing: true})}
+            onClick={() => this.setState({editing: true}, () => this.autoFocus())}
           >{this.state.value}
           </div>
           <button onClick={() => this.setState({editing: true})}>

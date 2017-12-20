@@ -3,3 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.header-background{
+  background: url(https://res.cloudinary.com/artform-co//w_1600/0eee4d99-13ae-4d99-a0a1-1350160c73b1.jpg) 50% 50% / cover no-repeat;
+}

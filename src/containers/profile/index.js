@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import Input from '../input';
 import Bio from '../bio';
 
-const Home = props => (
+const Profile = props => (
   <div>
     <header>
     <div className='header-background'></div>
@@ -32,4 +32,4 @@ const mapDispatchToProps = dispatch => bindActionCreators({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Home);
+)(Profile);
