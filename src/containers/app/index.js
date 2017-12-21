@@ -1,7 +1,8 @@
 import React from 'react';
-import { Route, Link } from 'react-router-dom';
-import Home from '../home';
-import About from '../about';
+import { Route } from 'react-router-dom';
+// import { Route, Link } from 'react-router-dom';
+// import Home from '../home';
+// import About from '../about';
 import Profile from '../profile';
 
 const App = () => (

@@ -3,7 +3,7 @@ import React from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import Input from '../input';
-import Bio from '../bio';
+import TextArea from '../textarea';
 
 const Home = props => (
   <div>
@@ -13,7 +13,7 @@ const Home = props => (
     </header>
     <button onClick={() => props.changePage()}>Go to about page via redux</button>
     <Input className="hometown" value={props.hometown}/>
-    <Bio className="bio"/>
+    <TextArea className="bio"/>
   </div>
 );
 

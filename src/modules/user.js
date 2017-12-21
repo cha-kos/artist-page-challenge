@@ -1,7 +1,8 @@
 export const UPDATE_FIELD = 'user/UPDATE_FIELD';
 
 const initialState = {
-  name: 'John Doe',
+  name: 'Pablo Picasso',
+  username: 'El Bandito',
   hometown: 'Alabama',
   bio: 'I come from a land down under...'
 };

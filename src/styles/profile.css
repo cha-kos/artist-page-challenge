@@ -1,0 +1,64 @@
+.header-background{
+  height: 40vh;
+  min-height: 50px;
+  width: 100%;
+  position: relative;
+  background: url(https://images.unsplash.com/photo-1503883391826-af91d7ce0533?auto=format&fit=crop&w=2474&q=80) 50% 50% / cover no-repeat;
+}
+
+.header-text{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-name{
+  padding-left: 10px;
+  padding-bottom: 2px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.header-username{
+  margin-top: 7px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.attribute-container{
+  margin: 20px 0px 0px 60px;
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+  justify-content: space-between;
+}
+
+
+.bio-container{
+  width: 50vw;
+  height: 50vh;
+  border-left: 1px solid lightgray;
+  margin-left: 100px;
+}
+
+.attribute{
+  margin: 10px 0px;
+}
+
+.attribute.bio{
+  padding-left: 60px;
+}
+
+.label{
+  color: gray;
+  font-size: 9px;
+  margin-left: 5px;
+}

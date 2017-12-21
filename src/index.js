@@ -10,7 +10,7 @@ import './index.css';
 
 const target = document.querySelector('#root');
 
-window.stateCheck = {};
+// window.stateCheck = {};
 
 render(
   <Provider store={store}>
