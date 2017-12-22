@@ -8,6 +8,7 @@ textarea {
   letter-spacing: 0.5px;
   resize: none;
   border-bottom: 1px solid #a4bcd5;
+  font-family: 'Montserrat', sans-serif;
 }
 
 textarea:focus{
@@ -25,7 +26,7 @@ textarea:focus{
 .textarea-display{
   font-size: 11px;
   padding: 0px 5px;
-  letter-spacing: 0.35px;
+  letter-spacing: 0.5px;
   font-weight: 400;
   width: 30vw;
   height: 30vh;
