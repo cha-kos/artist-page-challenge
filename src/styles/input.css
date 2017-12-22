@@ -14,7 +14,7 @@ input:focus{
   border: none;
   outline: none;
   border-bottom: 1px solid #d2a0d9;
-  transition: border 0.6s linear;
+  transition: border 0.2s linear;
 }
 
 .input-body{

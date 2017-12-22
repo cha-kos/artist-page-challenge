@@ -63,7 +63,7 @@ class TextArea extends React.Component {
             onClick={() => this.setState({editing: true}, () => this.autoFocus())}>
             {this.state.value}
           </div>
-          <button onClick={() => this.setState({editing: true}, this.update())} className='edit-button'>
+          <button onClick={() => this.setState({editing: true}, () => this.autoFocus())} className='edit-button'>
               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2"><polygon points="16 3 21 8 8 21 3 21 3 16 16 3"></polygon></svg>
           </button>
         </div>
