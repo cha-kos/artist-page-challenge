@@ -43,6 +43,10 @@
 }
 
 
+.attribute{
+  margin: 10px 0px;
+}
+
 .bio-container{
   width: 50vw;
   height: 50vh;
@@ -50,9 +54,6 @@
   margin-left: 100px;
 }
 
-.attribute{
-  margin: 10px 0px;
-}
 
 .attribute.bio{
   padding-left: 60px;
@@ -65,14 +66,17 @@
 }
 
 @media screen and (max-width: 800px){
+
   .info-container{
     margin: 0px;
     flex-direction: column;
     align-items: center;
   }
+
   .inputs-container{
     margin-top: 30px;
   }
+
   .bio-container{
     border: none;
     margin: 0px;
@@ -80,13 +84,16 @@
     width: auto;
     height: auto;
   }
+
   .attribute.bio{
     padding: 0px;
     margin: 0px;
   }
+
   .input-container{
     width: 250px;
   }
+
   .bio{
     width: 250px;
   }
