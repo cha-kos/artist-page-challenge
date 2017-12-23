@@ -14,7 +14,7 @@ const Profile = props => (
         <span className='header-username'>@{props.username}</span>
       </div>
     </div>
-    <div className='attribute-container'>
+    <div className='info-container'>
       <div className='inputs-container'>
         <div className='attribute'>
           <div className='label'>Name</div>

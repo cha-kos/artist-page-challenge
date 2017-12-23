@@ -1,8 +1,5 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-// import { Route, Link } from 'react-router-dom';
-// import Home from '../home';
-// import About from '../about';
 import Profile from '../profile';
 
 const App = () => (
@@ -17,8 +14,3 @@ const App = () => (
 );
 
 export default App;
-
-// <Link to="/">Home</Link>
-// <Link to="/about-us">About</Link>
-
-// <Route exact path="/about-us" component={About} />

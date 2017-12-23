@@ -34,7 +34,7 @@
   letter-spacing: 0.5px;
 }
 
-.attribute-container{
+.info-container{
   margin: 20px 0px 0px 60px;
   display: flex;
   flex-direction: row;
@@ -62,4 +62,32 @@
   color: gray;
   font-size: 9px;
   margin-left: 5px;
+}
+
+@media screen and (max-width: 800px){
+  .info-container{
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputs-container{
+    margin-top: 30px;
+  }
+  .bio-container{
+    border: none;
+    margin: 0px;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+  }
+  .attribute.bio{
+    padding: 0px;
+    margin: 0px;
+  }
+  .input-container{
+    width: 250px;
+  }
+  .bio{
+    width: 250px;
+  }
 }

@@ -35,3 +35,12 @@ textarea:focus{
 .edit-button{
   margin-bottom: 30vh;
 }
+
+@media screen and (max-width: 800px){
+  .edit-button{
+    margin-left: 16px;
+  }
+  .textarea-display{
+    width: 210px;
+  }
+}
