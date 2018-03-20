@@ -55,5 +55,3 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(Profile);
-
-    // <button onClick={() => props.changePage()}>Go to about page via redux</button>
